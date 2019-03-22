@@ -1,3 +1,10 @@
+/**
+* Draughts in Java
+* 
+*
+* @author  Harshal Mahtani
+* @since   2019-03-22
+*/
 import javax.swing.*;
 import java.awt.*;
 
