@@ -1,7 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 
-public class Square extends JButton
+public class Square extends JButton // makes every square a JButton
 {
     ImageIcon blacksquare = new ImageIcon("empty2.png"); //creates the black square
     ImageIcon whitesquare  = new ImageIcon("empty.png"); // creates the white square
@@ -60,7 +60,7 @@ public class Square extends JButton
             Square sq = ((Square)comp[i]);
             if(sq.y == x && sq.x == y)
             {
-               this.setIcon(whitepiece);
+               this.setIcon(whitepiece); // sets the whitepieces to the white squares
                this.color = color;
 
             }
