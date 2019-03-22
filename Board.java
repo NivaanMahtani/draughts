@@ -61,7 +61,8 @@ public class Board implements ActionListener
                         p.add(sq); // adds a square to the panel
                         sq.addActionListener(this); // adds an actionlistener in order to see if the square has been clicked or not. We only add it to the white squares since these are the ones that are suppose to be clicked.
                     }
-                    else{
+                    else
+                    {
                         Square sq = new Square (x, y,"Black"); // it tells if square is black or not
                         p.add(sq); // adds a square to the panel
                         
@@ -75,7 +76,6 @@ public class Board implements ActionListener
         p.setLayout(gridlayout); // sets the layout to the panel
         frame.setContentPane(p); // puts the panel into the frame
         frame.setBackground(Color.WHITE); // sets the background to white
-        
         frame.setVisible(true); // very important, since it allows the whole frame to be visible
 
 
